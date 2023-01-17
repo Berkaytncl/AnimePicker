@@ -9,7 +9,12 @@ import Foundation
 
 struct Anime: Decodable {
     let pagination: Pagination?
-    let data: [Data]?
+    let animeData: [AnimeData]?
+    
+    enum CodingKeys: String, CodingKey {
+        case pagination = "has_next_page"
+        case animeData = "data"
+    }
 }
 
 struct Pagination: Decodable {
@@ -30,7 +35,7 @@ struct Pagination: Decodable {
     }
 }
 
-struct Data: Decodable {
+struct AnimeData: Decodable {
     let id: Int?
     let images: Jpg?
     let title: String?

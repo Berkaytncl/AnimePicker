@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB3C2EAD2976EA5800DBAF23 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C2EAC2976EA5800DBAF23 /* NetworkManager.swift */; };
 		EBEF52042976E32000B9E00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52032976E32000B9E00B /* AppDelegate.swift */; };
 		EBEF52062976E32000B9E00B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52052976E32000B9E00B /* SceneDelegate.swift */; };
 		EBEF52082976E32000B9E00B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52072976E32000B9E00B /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB3C2EAC2976EA5800DBAF23 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EBEF52002976E32000B9E00B /* AnimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEF52032976E32000B9E00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBEF52052976E32000B9E00B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB3C2EAB2976EA3B00DBAF23 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EB3C2EAC2976EA5800DBAF23 /* NetworkManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		EBEF51F72976E31F00B9E00B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		EBEF52022976E32000B9E00B /* AnimePicker */ = {
 			isa = PBXGroup;
 			children = (
+				EB3C2EAB2976EA3B00DBAF23 /* Utilities */,
 				EBEF52172976E42E00B9E00B /* Models */,
 				EBEF52032976E32000B9E00B /* AppDelegate.swift */,
 				EBEF52052976E32000B9E00B /* SceneDelegate.swift */,
@@ -151,6 +162,7 @@
 			files = (
 				EBEF52192976E44F00B9E00B /* Anime.swift in Sources */,
 				EBEF52082976E32000B9E00B /* ViewController.swift in Sources */,
+				EB3C2EAD2976EA5800DBAF23 /* NetworkManager.swift in Sources */,
 				EBEF52042976E32000B9E00B /* AppDelegate.swift in Sources */,
 				EBEF52062976E32000B9E00B /* SceneDelegate.swift in Sources */,
 			);
