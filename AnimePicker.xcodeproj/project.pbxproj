@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB3C2EAD2976EA5800DBAF23 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C2EAC2976EA5800DBAF23 /* NetworkManager.swift */; };
+		EB3C2EAF2976EE2E00DBAF23 /* APIURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C2EAE2976EE2E00DBAF23 /* APIURLs.swift */; };
 		EBEF52042976E32000B9E00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52032976E32000B9E00B /* AppDelegate.swift */; };
 		EBEF52062976E32000B9E00B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52052976E32000B9E00B /* SceneDelegate.swift */; };
 		EBEF52082976E32000B9E00B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52072976E32000B9E00B /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		EB3C2EAC2976EA5800DBAF23 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EB3C2EAE2976EE2E00DBAF23 /* APIURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURLs.swift; sourceTree = "<group>"; };
 		EBEF52002976E32000B9E00B /* AnimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEF52032976E32000B9E00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBEF52052976E32000B9E00B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				EB3C2EAC2976EA5800DBAF23 /* NetworkManager.swift */,
+				EB3C2EAE2976EE2E00DBAF23 /* APIURLs.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				EBEF52082976E32000B9E00B /* ViewController.swift in Sources */,
 				EB3C2EAD2976EA5800DBAF23 /* NetworkManager.swift in Sources */,
 				EBEF52042976E32000B9E00B /* AppDelegate.swift in Sources */,
+				EB3C2EAF2976EE2E00DBAF23 /* APIURLs.swift in Sources */,
 				EBEF52062976E32000B9E00B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
