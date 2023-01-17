@@ -13,6 +13,7 @@
 		EBEF520B2976E32000B9E00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEF52092976E32000B9E00B /* Main.storyboard */; };
 		EBEF520D2976E32000B9E00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEF520C2976E32000B9E00B /* Assets.xcassets */; };
 		EBEF52102976E32000B9E00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEF520E2976E32000B9E00B /* LaunchScreen.storyboard */; };
+		EBEF52192976E44F00B9E00B /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52182976E44F00B9E00B /* Anime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EBEF520C2976E32000B9E00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBEF520F2976E32000B9E00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBEF52112976E32000B9E00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBEF52182976E44F00B9E00B /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		EBEF52022976E32000B9E00B /* AnimePicker */ = {
 			isa = PBXGroup;
 			children = (
+				EBEF52172976E42E00B9E00B /* Models */,
 				EBEF52032976E32000B9E00B /* AppDelegate.swift */,
 				EBEF52052976E32000B9E00B /* SceneDelegate.swift */,
 				EBEF52072976E32000B9E00B /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				EBEF52112976E32000B9E00B /* Info.plist */,
 			);
 			path = AnimePicker;
+			sourceTree = "<group>";
+		};
+		EBEF52172976E42E00B9E00B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EBEF52182976E44F00B9E00B /* Anime.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBEF52192976E44F00B9E00B /* Anime.swift in Sources */,
 				EBEF52082976E32000B9E00B /* ViewController.swift in Sources */,
 				EBEF52042976E32000B9E00B /* AppDelegate.swift in Sources */,
 				EBEF52062976E32000B9E00B /* SceneDelegate.swift in Sources */,
