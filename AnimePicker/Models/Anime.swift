@@ -12,27 +12,25 @@ struct Anime: Decodable {
     let animeData: [AnimeData]?
     
     enum CodingKeys: String, CodingKey {
-        case pagination = "has_next_page"
+        case pagination
         case animeData = "data"
     }
 }
 
 struct Pagination: Decodable {
     let hasNextPage: Bool?
-    let currentPage: Int?
     
     enum CodingKeys: String, CodingKey {
         case hasNextPage = "has_next_page"
-        case currentPage = "current_page"
     }
     
     var _hasNextPage: Bool {
         hasNextPage ?? false
     }
-    
-    var _currentPage: Int {
-        currentPage ?? -1
-    }
+}
+
+struct AnimeDataDetail: Decodable {
+    let data: AnimeData?
 }
 
 struct AnimeData: Decodable {
@@ -43,15 +41,14 @@ struct AnimeData: Decodable {
     let score: Float?
     let rank: Int?
     let synopsis: String?
+    let demographics: [Demographic]?
+    
     
     enum CodingKeys: String, CodingKey {
         case id = "mal_id"
-        case images
-        case title
+        case images, title
         case titleEnglish = "title_english"
-        case score
-        case rank
-        case synopsis
+        case score, rank, synopsis, demographics
     }
     
     var _id: Int {
@@ -101,5 +98,13 @@ struct JpgPath: Decodable {
     
     var _imageUrl: String {
         imageUrl ?? ""
+    }
+}
+
+struct Demographic: Decodable {
+    let name: String?
+    
+    var _name: String {
+        name ?? "-"
     }
 }
