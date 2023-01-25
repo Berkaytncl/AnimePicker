@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB1AEEF6297AD27E00EA1013 /* AnimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1AEEF5297AD27E00EA1013 /* AnimeCell.swift */; };
+		EB1AEEF8297AD2D100EA1013 /* PosterImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1AEEF7297AD2D100EA1013 /* PosterImageView.swift */; };
+		EB1AEEFB297AD67200EA1013 /* UICollectionView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1AEEFA297AD67200EA1013 /* UICollectionView+Ext.swift */; };
+		EB1AEEFE297AD81400EA1013 /* AnimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1AEEFD297AD81400EA1013 /* AnimeService.swift */; };
+		EB1AEF00297ADC1600EA1013 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1AEEFF297ADC1600EA1013 /* DetailViewController.swift */; };
+		EB1AEF02297ADC2B00EA1013 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB1AEF01297ADC2B00EA1013 /* DetailViewModel.swift */; };
+		EB2425C7297C0C8000F99282 /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2425C6297C0C8000F99282 /* CGFloat+Ext.swift */; };
 		EB3C2EAD2976EA5800DBAF23 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C2EAC2976EA5800DBAF23 /* NetworkManager.swift */; };
 		EB3C2EAF2976EE2E00DBAF23 /* APIURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3C2EAE2976EE2E00DBAF23 /* APIURLs.swift */; };
+		EB8879702976F167004A261E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88796F2976F167004A261E /* HomeViewModel.swift */; };
+		EB9FB37C297F0872000E667A /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9FB37B297F0872000E667A /* UIHelper.swift */; };
 		EBEF52042976E32000B9E00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52032976E32000B9E00B /* AppDelegate.swift */; };
 		EBEF52062976E32000B9E00B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52052976E32000B9E00B /* SceneDelegate.swift */; };
-		EBEF52082976E32000B9E00B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52072976E32000B9E00B /* ViewController.swift */; };
+		EBEF52082976E32000B9E00B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEF52072976E32000B9E00B /* HomeViewController.swift */; };
 		EBEF520B2976E32000B9E00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEF52092976E32000B9E00B /* Main.storyboard */; };
 		EBEF520D2976E32000B9E00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEF520C2976E32000B9E00B /* Assets.xcassets */; };
 		EBEF52102976E32000B9E00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBEF520E2976E32000B9E00B /* LaunchScreen.storyboard */; };
@@ -19,12 +28,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB1AEEF5297AD27E00EA1013 /* AnimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeCell.swift; sourceTree = "<group>"; };
+		EB1AEEF7297AD2D100EA1013 /* PosterImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterImageView.swift; sourceTree = "<group>"; };
+		EB1AEEFA297AD67200EA1013 /* UICollectionView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Ext.swift"; sourceTree = "<group>"; };
+		EB1AEEFD297AD81400EA1013 /* AnimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeService.swift; sourceTree = "<group>"; };
+		EB1AEEFF297ADC1600EA1013 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EB1AEF01297ADC2B00EA1013 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		EB2425C6297C0C8000F99282 /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
 		EB3C2EAC2976EA5800DBAF23 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		EB3C2EAE2976EE2E00DBAF23 /* APIURLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIURLs.swift; sourceTree = "<group>"; };
+		EB88796F2976F167004A261E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EB9FB37B297F0872000E667A /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		EBEF52002976E32000B9E00B /* AnimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEF52032976E32000B9E00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBEF52052976E32000B9E00B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EBEF52072976E32000B9E00B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBEF52072976E32000B9E00B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		EBEF520A2976E32000B9E00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EBEF520C2976E32000B9E00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBEF520F2976E32000B9E00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,13 +61,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EB1AEEF9297AD64F00EA1013 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EB1AEEFA297AD67200EA1013 /* UICollectionView+Ext.swift */,
+				EB2425C6297C0C8000F99282 /* CGFloat+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EB1AEEFC297AD7F000EA1013 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EB1AEEFD297AD81400EA1013 /* AnimeService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		EB3C2EAB2976EA3B00DBAF23 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
 				EB3C2EAC2976EA5800DBAF23 /* NetworkManager.swift */,
 				EB3C2EAE2976EE2E00DBAF23 /* APIURLs.swift */,
+				EB9FB37B297F0872000E667A /* UIHelper.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EB3C2EB02976F06700DBAF23 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EB3C2EB12976F08400DBAF23 /* Components */,
+				EB3C2EB22976F0AC00DBAF23 /* HomeScreen */,
+				EB3C2EB32976F0C200DBAF23 /* DetailScreen */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EB3C2EB12976F08400DBAF23 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EB1AEEF5297AD27E00EA1013 /* AnimeCell.swift */,
+				EB1AEEF7297AD2D100EA1013 /* PosterImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EB3C2EB22976F0AC00DBAF23 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EBEF52072976E32000B9E00B /* HomeViewController.swift */,
+				EB88796F2976F167004A261E /* HomeViewModel.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		EB3C2EB32976F0C200DBAF23 /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				EB1AEEFF297ADC1600EA1013 /* DetailViewController.swift */,
+				EB1AEF01297ADC2B00EA1013 /* DetailViewModel.swift */,
+			);
+			path = DetailScreen;
 			sourceTree = "<group>";
 		};
 		EBEF51F72976E31F00B9E00B = {
@@ -71,11 +144,13 @@
 		EBEF52022976E32000B9E00B /* AnimePicker */ = {
 			isa = PBXGroup;
 			children = (
+				EB1AEEF9297AD64F00EA1013 /* Extensions */,
 				EB3C2EAB2976EA3B00DBAF23 /* Utilities */,
 				EBEF52172976E42E00B9E00B /* Models */,
+				EB1AEEFC297AD7F000EA1013 /* Services */,
+				EB3C2EB02976F06700DBAF23 /* Core */,
 				EBEF52032976E32000B9E00B /* AppDelegate.swift */,
 				EBEF52052976E32000B9E00B /* SceneDelegate.swift */,
-				EBEF52072976E32000B9E00B /* ViewController.swift */,
 				EBEF52092976E32000B9E00B /* Main.storyboard */,
 				EBEF520C2976E32000B9E00B /* Assets.xcassets */,
 				EBEF520E2976E32000B9E00B /* LaunchScreen.storyboard */,
@@ -164,10 +239,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBEF52192976E44F00B9E00B /* Anime.swift in Sources */,
-				EBEF52082976E32000B9E00B /* ViewController.swift in Sources */,
+				EBEF52082976E32000B9E00B /* HomeViewController.swift in Sources */,
+				EB1AEEFE297AD81400EA1013 /* AnimeService.swift in Sources */,
+				EB1AEF00297ADC1600EA1013 /* DetailViewController.swift in Sources */,
+				EB1AEEF6297AD27E00EA1013 /* AnimeCell.swift in Sources */,
+				EB8879702976F167004A261E /* HomeViewModel.swift in Sources */,
+				EB1AEEFB297AD67200EA1013 /* UICollectionView+Ext.swift in Sources */,
+				EB1AEEF8297AD2D100EA1013 /* PosterImageView.swift in Sources */,
+				EB9FB37C297F0872000E667A /* UIHelper.swift in Sources */,
 				EB3C2EAD2976EA5800DBAF23 /* NetworkManager.swift in Sources */,
+				EB1AEF02297ADC2B00EA1013 /* DetailViewModel.swift in Sources */,
 				EBEF52042976E32000B9E00B /* AppDelegate.swift in Sources */,
 				EB3C2EAF2976EE2E00DBAF23 /* APIURLs.swift in Sources */,
+				EB2425C7297C0C8000F99282 /* CGFloat+Ext.swift in Sources */,
 				EBEF52062976E32000B9E00B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
